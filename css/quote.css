@@ -1,0 +1,68 @@
+html body{
+    background:#49beb7;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .header{
+    background: #085f63;
+    color: white;
+    margin:0;
+    padding:1px;
+    border-bottom:3px solid;
+  }
+  
+  div.main{
+    height: 23em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gridContainer {
+      display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gridMain {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+  }
+  
+  input[type] ,select  {
+    background-color: #fccf4d;
+    color: #085f63;
+  }
+  
+  
+  button{
+    height: 60px;
+    width: 136px;
+    background-color: #fccf4d;
+    color: #ef255f;
+    font: 1.5em sans-serif;
+  }
+  .footer{
+      background: #085f63;
+      color: white;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      border-top:3px solid;
+  }
+  
+  .images {
+     width: 80%;
+     height: 80%;
+     background-image: url('../image/photo.JPG');
+     background-repeat: no-repeat;
+     background-size: contain;
+     padding: 3em;
+  }
+  

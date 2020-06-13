@@ -1,0 +1,64 @@
+<!-- Hung Han, Chen, 991531300 -->
+<!-- http://www.chenhung.dev.fast.sheridanc.on.ca/chenhung_assign1/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/chenhung.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/chenhung.js"></script>
+    <title>Hung Han Chen</title>
+</head>
+
+<body onload="createList()">
+
+    <div class="header"></div>
+
+    <div class="main">
+            <div class="gridLayout">
+                <section>
+                    <div class="gridMain">
+                        <section>
+                            <label>Customer Name:</label>
+                            <p>
+                                <label>Customer Emil:</label>
+                            <p>
+                                <label>Products: </label>
+                            <p>
+                                <label>Amount: </label>
+                            <p>
+                        </section>
+                        <section>
+                            <input type="text" id="inName" value="Hung Han Chen" required>
+                            <p>
+                                <input type="email" id="inEmail" value="chenhung@sheridancollege.ca" required>
+                            <p>
+                                <select id="productsList" onchange="showPrice()"></select>
+                            <p>
+                                <input type="number" id="inAmount" value="1" min="1">
+                            <p>
+                        </section>
+
+                    </div>
+                </section>
+                <section>
+                    <div class="gridMain">
+                        <section>
+                            <div id="priceImg"></div>
+                        </section>
+                        <section>
+                            <button type="submit" onclick="goToQuote()">Quote</button>
+                        </section>
+
+                    </div>
+
+                </section>
+            </div>
+    </div>
+    <div class="footer"></div>
+
+</body>
+
+</html>
